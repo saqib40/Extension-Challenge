@@ -1,0 +1,22 @@
+{
+  "name": "extension-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "rimraf dist && npx tsc",
+    "build": "npx tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.266",
+    "@types/dompurify": "^3.0.5",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dompurify": "^3.1.0",
+    "rimraf": "^5.0.5"
+  }
+}
